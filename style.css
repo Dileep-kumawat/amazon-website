@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+/* nav 1 started */
+nav{
+    background-color: #131921;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+ nav .logo{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 60px;
+    width: 140px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+nav .location{
+    display: flex;
+}
+nav .box2 .first{
+    margin-left: 15px;
+    font-size: 0.85rem; 
+}
+nav .box2 .sec{
+    margin-left: 2px;
+}
+nav .box3{
+    width: 620px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    border: none;
+    border-radius: 4px;
+}
+nav .box3:hover{
+    border: 2px solid rgb(209, 148, 56);
+    cursor: pointer;
+}
+nav .box3 input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    
+}
+nav .box3 select{
+    height: 40px;
+    border: none;
+    background-color: #efe6e6;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+nav .box3 .search-logo{
+    width: 45px;
+    height: 40px;
+    border: none;
+    font-size: 1.55rem;
+    color: #131921;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 148, 56);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+nav .box4{ 
+    height: 40px;
+    width: 80px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+}
+nav .box4 p{ 
+    text-align: center; 
+}
+nav .box4 i{
+    font-size: 0.75rem;
+}
+nav .box5 .first{
+    font-size: 0.85rem;
+}
+nav .box5 .sec{
+    font-weight: 700;
+}
+nav .box6 .first{
+    font-size: 0.85rem;
+}
+nav .box6 .sec{
+    font-weight: 700;
+}
+nav .box7{
+    display: flex;  
+}
+nav .box7 .cart-logo{
+    font-size: 1.95rem;
+}
+nav .box7 p{
+    padding-top: 15px;
+}
+/* nav 2 started */
+.nav2{
+    background-color: #292f2f;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+.nav2 .box1{
+    text-align: center;
+    display: flex;
+    height: max-content;
+    margin-left: 1.25rem;
+}
+main .hero-section{
+    background-image: url("hero_image.jpg");
+    height: 60vh;
+    background-size: cover;
+    margin: 0px 10px;
+    font-size: 0.95rem;
+}
+main .hero-section .infro a{
+    color: #2162A1;
+    text-decoration: none;
+}
+/* hero section started */
+main .hero-section .infro{
+    background-color: white;
+    height: 40px;
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    top: 40vh;
+} 
+/* main content started */
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e3e6e6;
+}
+.content .box{
+    height: 400px;
+    color: black;
+    width: 20vw;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    bottom: 5rem;
+    margin: 10px;
+ } 
+ .content .box .image{
+    display: flex;
+    flex-wrap: wrap; 
+    height: 90%;
+    width: 100%;
+ }
+ .content .box .image img{
+    height: 35%;
+    width: 35%;
+    padding: 10px;
+ }
+ .content .box .first{ 
+    font-size: 1.25rem;
+    font-weight: 600; 
+ }
+ .content .box .sec{
+    font-size: 0.85rem;
+    color: #2162A1; 
+    padding-bottom:10px ; 
+ }
+ /* footer 1 started */
+ .footer1{
+    background-color: #292f2f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 0.85rem;
+ } 
+ /* footer 2 started */
+ .footer2{
+    background-color: #131921;
+    height: 400px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+ }
+ .footer2 .box{
+    height: 300px; 
+ }
+ .footer2 p,h2{
+    padding: 10px;
+ }
+ /* footer 3 started */
+ .footer3{
+    background-color: #131921;
+    color: white;
+    height: 80px;
+    border-top: 1px solid white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .footer3 .img{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 60px;
+    width: 140px;
+ }
